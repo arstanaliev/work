@@ -1,0 +1,109 @@
+@media (max-width: 768px) {
+    #hero {
+      padding: 70px 0;
+    }
+    .hero-left h1 {
+      color: var(--Dark-Color, #21243d);
+      font-size: 33px;
+      font-weight: 700;
+      line-height: 40px; /* 136.364% */
+    }
+  .header img{
+    display: none;
+  }
+    .post-text {
+      padding: 15px 20px;
+      width: 300px;
+      height: 180px;
+    }
+    .post-text h1 {
+      color: var(--Dark-Color, #21243d);
+      font-size: 20px;
+      font-weight: 600;
+    }
+    .months {
+      display: flex;
+      margin: 15px 0;
+    }
+    .post-text p {
+      width: 298px;
+      color: var(--Dark-Color, #21243d);
+      font-size: 16px;
+      font-weight: 400;
+    }
+    .work {
+      margin-left: 1px;
+    }
+  }
+  @media (max-width: 426px) {
+    .header img{
+      display: none;
+    }
+    .header {
+      display: flex;
+      justify-content: center;
+    }
+    .hero {
+      display: flex;
+      flex-direction: column-reverse;
+    }
+    .hero-left h1 {
+      text-align: center;
+      font-size: 30px;
+      line-height: 50px; /* 136.364% */
+    }
+    .hero-left p {
+      text-align: center;
+      font-size: 18px;
+      font-weight: 400;
+      margin: 20px 0;
+    }
+    .hero-left button {
+      margin-left: 55px;
+    }
+   
+    .tittle p {
+      transform: scale(0);
+    }
+    .tittle h3 {
+      font-size: 22px;
+      font-weight: 400;
+      text-align: center;
+    }
+    .blocks {
+      display: flex;
+      flex-direction: column;
+    }
+    .work-img {
+      display: flex;
+      flex-direction: column;
+      /* margin: 40px 0; */
+    }
+    .work-text h1 {
+      font-size: 25px;
+      font-weight: 700;
+      padding: 17px 0;
+    }
+    .work-text p {
+      font-size: 15px;
+      font-weight: 400;
+      line-height: 20px;
+      width: 90%;
+      padding: 10px 0;
+    }
+    .loro {
+        margin: 8px 0;
+      }
+  }
+  @media(max-width:320px) {
+    .work-text h1 {
+        font-size: 21px;
+        font-weight: 700;
+      }
+      .work-text p {
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 20px;
+        width: 90%;
+      }
+  }

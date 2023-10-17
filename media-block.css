@@ -1,0 +1,94 @@
+@media(max-width:768px) {
+    .blog2 {
+        margin-left: 80px;
+      }
+      .icons {
+        display: flex;
+        justify-content: center;
+        margin-left: 50px;
+      }
+      .icons img {
+        margin: 0 13px;
+      }
+      .footer-span {
+        color: var(--Dark, #21243d);
+        text-align: center;
+        font-size: 14px;
+        font-weight: 400;
+        margin-top: 20px;
+        margin-left: 80px;
+      }
+}
+@media(max-width: 426px) {
+        .header  {
+            display: flex;
+            justify-content:end;
+            text-align: center;
+        }
+        hr {
+            width: 400px;
+            margin-top: 25px;
+            margin-left: -50px;
+          }
+        .blog2 {
+            margin-left: 40px;
+        }
+        .blog2 h2 {
+            color: var(--Dark-Color, #21243d);
+            font-size: 23px;
+            font-weight: 700;
+            margin: 35px 0 0 0;
+        }
+        .blog2 p {
+            color: var(--Dark-Color, #21243d);
+            font-size: 15px;
+            font-weight: 400;
+        }
+        .blog-data {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            
+        }
+        .blog-data div {
+            height: 15px;
+            width: 2px;
+            background: #000;
+            margin: 15px 15px;
+          }
+          .footer-span {
+            color: var(--Dark, #21243d);
+            font-size: 14px;
+            font-weight: 400;
+            margin-top: 20px;
+            margin-left: 50px;
+          }
+}
+@media(max-width:376px) {
+        .blog-data h5{
+            color: var(--Dark-Color, #21243D);
+        font-size: 17px;
+        font-weight: 400;
+        line-height: normal;
+     }
+}
+@media(max-width:320px) {
+    #header {
+        display: flex;
+        justify-content: end;
+        margin-left: 360px;
+      }
+      .blog2 h2 {
+        font-size: 23px;
+        font-weight: 600;
+        margin: 35px 0 0 0;
+      }
+      .blog-data h5{
+    font-size: 15px;
+    font-weight: 400;
+      }
+      .blog2 p {
+        font-size: 12px;
+        font-weight: 400;
+      }
+ }
